@@ -1,0 +1,11 @@
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: close
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 143
+Etag: W/"8f-+SYJisQ63Hp3BIUG7cY9TTsiWLA"
+Date: Thu, 12 May 2022 11:28:57 GMT
+Via: 1.1 vegur
+
+{"email":"troll123@gmail.com","password":"$2b$10$XGsvJa1aPdzm/dzBiLKkzeH/CQNA6qWbDFljZ7o8NZ0uLuuBSX78C","username":"troll123","role":1,"id":28}

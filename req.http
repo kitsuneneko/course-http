@@ -1,0 +1,35 @@
+### 1)
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/post HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+### 2)
+POST https://trollauthapp.herokuapp.com/users/new HTTP/1.1
+content-type: application/json
+
+    {
+        "email": "troll123@gmail.com",
+        "password": "Red1yay2345",
+        "username": "troll123",
+        "role": 1
+    }
+
+###
+POST https://trollauthapp.herokuapp.com/auth/login HTTP/1.1
+content-type: application/json
+
+    {
+      "password": "Red1yay2345",
+      "username": "troll123"
+    } 
+
+###
+GET https://trollauthapp.herokuapp.com/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRyb2xsMTIzIiwic3ViIjoyOCwiaWF0IjoxNjUyMzU2MjA5LCJleHAiOjE2NTIzNTY1MDl9.YDjeROLpRIFxOd2sUkfb_-oY6kp9SN9Wd3USjzb9FpA
